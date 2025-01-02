@@ -151,6 +151,3 @@ Work with external stores seamlessly using `useSyncExternalStore`.
 ---
 
 Happy learning! 🚀
-
-
-Test
