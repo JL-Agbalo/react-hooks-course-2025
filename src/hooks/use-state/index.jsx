@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { TodoList } from "./todo-list";
+export const UseState = () => {
 
-export const StateExample = () => {
-  return (
-    <div>
-    
-    </div>
-  );
+return (
+  <div>
+   <TodoList></TodoList>
+  </div>
+);
 };
