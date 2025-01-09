@@ -4,11 +4,15 @@ export const LoginForm = () => {
     const [userName, setUserName] = useState("");
     const [password, setPassword] = useState("");
     const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [errorMessage, setErrorMessage] = useState("");
 
     const login = () => {
         if (userName === "admin" && password === "admin") {
             setIsLoggedIn(true);
-        }
+            setErrorMessage("");
+        }else
+        setIsLoggedIn(false);
+        setErrorMessage("Invalid Username or Password");
     };
 
     return (
@@ -32,7 +36,7 @@ export const LoginForm = () => {
             >
                 Login
             </button>
-            {isLoggedIn && <p>Welcome, {userName}!</p>}
+            {isLoggedIn ? <p>Welcome, {userName}!</p> : <p>{errorMessage}</p>}
         </div>
     );
 };
