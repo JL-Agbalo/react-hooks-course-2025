@@ -4,6 +4,7 @@ import { Visible } from "./visible";
 import { ChangeColorBackground } from "./change-color-background";
 import {DynamicInputTracker} from "./dynamic-input-tracker";
 import { LikeUnlikeButton } from "./like-unlike-button";
+import { LoginForm } from "./login-form";
 export const UseState = () => {
 
 return (
@@ -13,7 +14,8 @@ return (
    {/* <Visible></Visible> */}
    {/* <ChangeColorBackground></ChangeColorBackground> */}
   {/* <DynamicInputTracker></DynamicInputTracker> */}
-  <LikeUnlikeButton></LikeUnlikeButton>
+  {/* <LikeUnlikeButton></LikeUnlikeButton> */}
+  <LoginForm></LoginForm>
   </div>
 );
 };
