@@ -2,6 +2,7 @@ import { TodoList } from "./todo-list";
 import { Count } from "./count";
 import { Visible } from "./visible";
 import { ChangeColorBackground } from "./change-color-background";
+import {DynamicInputTracker} from "./dynamic-input-tracker";
 export const UseState = () => {
 
 return (
@@ -9,7 +10,8 @@ return (
    {/* <TodoList></TodoList> */}
    {/* <Count></Count> */}
    {/* <Visible></Visible> */}
-   <ChangeColorBackground></ChangeColorBackground>
+   {/* <ChangeColorBackground></ChangeColorBackground> */}
+  <DynamicInputTracker></DynamicInputTracker>
   </div>
 );
 };
