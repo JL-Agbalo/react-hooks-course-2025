@@ -14,8 +14,10 @@ export const LikeUnlikeButton = () => {
         <div>
             <h1>Like Unlike Button</h1>
             <button onClick={handleLike}>
-                {like ? "Unlike" : "Like"} {likeCount}
+                {like ? "Unlike" : "Like"}
             </button>
+            <p>Likes: {likeCount}</p>
+
         </div>
     );
 }
