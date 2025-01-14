@@ -70,3 +70,12 @@ Student.defaultProps = {
 
 // conditional rendering = allows you to control what gets rendered in your application based on certain condition
 // (show, hide or chnage components)
+
+render List
+// fruits.sort((a,b) => a.name.localeCompare(b.name)) // Alphabetical
+// fruits.sort((a,b) => b.name.localeCompare(a.name)) // Reverse Alphabetical
+// fruits.sort((a,b) => a.name.localeCompare(b.calories)) // Numeric
+// fruits.sort((a,b) => b.name.localeCompare(a.calories)) // Reverse Numberic
+
+const lowCalFruits = fruits.filter(fruit => fruit.calories < 100)
+const highCalFruits = fruits.filter(fruit => fruit.calories >= 100)
