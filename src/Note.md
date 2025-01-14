@@ -100,3 +100,9 @@ return (<button onClick={() => handleClick2("Name")}> Click me </button>)
 
 // onChange =event handler used primarily with form elements ex. <input> <textarea> <select> <radio>
 // Triggers a function every time the value of the input changes 
+
+// update function = A function passed as an argument to setState() useally ex. setYear(arrow function)
+// Allow for safe updates based on the previous state used with multiple state updates and asynchronous functions
+// Good practice to use updater functions
+
+Continue https://www.youtube.com/watch?v=YxQlt3n1ZPA&list=PLZPZq0r_RZOMQArzyI32mVndGBZ3D99XQ&index=12
