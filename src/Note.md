@@ -46,3 +46,27 @@ const styles = {.button{
 // propTypes = a mechanisim that ensures that the passed value is the correct datatype
 // age:PropTypes.number
 
+
+import PropTypes from 'prop-types'
+
+Student.propTypes = {
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool,
+}
+
+export deault name;
+
+
+// defaultProps = default values for props in the case they are not passed from the parent Components
+// name: "Guest"
+
+Student.defaultProps = {
+    name: "Guest",
+    age: 0,
+    isSTudent: alse,
+}
+
+
+// conditional rendering = allows you to control what gets rendered in your application based on certain condition
+// (show, hide or chnage components)
