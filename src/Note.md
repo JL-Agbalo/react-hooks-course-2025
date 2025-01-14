@@ -79,3 +79,16 @@ render List
 
 const lowCalFruits = fruits.filter(fruit => fruit.calories < 100)
 const highCalFruits = fruits.filter(fruit => fruit.calories >= 100)
+
+// Click event = An interaction when a user clocks on a speciffic element
+// We can respond to clicks by passing a callback to the onClick event handler
+
+const handleClick = () => console.log("Clicked")
+        ^ Function
+
+return (<button onClick={handeClick}> Click me</button>)
+                            ^ Callback
+
+const handleClick2 =(name) => console.log(`Dont Click me + ${name}`)
+
+return (<button onClick={() => handleClick2("Name")}> Click me </button>)
