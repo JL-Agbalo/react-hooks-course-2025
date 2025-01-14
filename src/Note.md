@@ -92,3 +92,11 @@ return (<button onClick={handeClick}> Click me</button>)
 const handleClick2 =(name) => console.log(`Dont Click me + ${name}`)
 
 return (<button onClick={() => handleClick2("Name")}> Click me </button>)
+
+// Reac hook = Special function that allows functional components to use React features without writing class componenets (React v16.8)
+// (useState, useEffect, useContext, useReducer, useCallback, and more...)
+
+// useState() = A react hook that allows the creation of a stateful variable AND a setter function to update its value in the Virtual DOM [name, set name]
+
+// onChange =event handler used primarily with form elements ex. <input> <textarea> <select> <radio>
+// Triggers a function every time the value of the input changes 
