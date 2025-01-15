@@ -3,7 +3,8 @@ import "./App.css";
 // import { EffectExample } from "./hooks/use-effect/index";
 // import ColorPicket from "./sampleProject/ColorPicket";
 // import UpdaterFunction from "./sampleProject/UpdaterFunction";
-import CarModel from "./sampleProject/CarModel";
+// import CarModel from "./sampleProject/CarModel";
+import ArrayFruits from "./sampleProject/ArrayFruits";
 function App() {
   return (
     <>
@@ -11,7 +12,8 @@ function App() {
       {/* <EffectExample /> */}
       {/* <ColorPicket /> */}
       {/* <UpdaterFunction /> */}
-      <CarModel></CarModel>
+      {/* <CarModel></CarModel> */}
+      <ArrayFruits/>
     </>
   );
 }
