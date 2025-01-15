@@ -5,7 +5,8 @@ import "./App.css";
 // import UpdaterFunction from "./sampleProject/UpdaterFunction";
 // import CarModel from "./sampleProject/CarModel";
 // import ArrayFruits from "./sampleProject/ArrayFruits";
-import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
+// import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
+import ToDoList from "./sampleProject/ToDoList";
 function App() {
   return (
     <>
@@ -15,7 +16,8 @@ function App() {
       {/* <UpdaterFunction /> */}
       {/* <CarModel></CarModel> */}
       {/* <ArrayFruits/> */}
-      <ArrayOfObjects/>
+      {/* <ArrayOfObjects/> */}
+      <ToDoList />
     </>
   );
 }
