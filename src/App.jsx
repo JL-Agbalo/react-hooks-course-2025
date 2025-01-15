@@ -4,7 +4,8 @@ import "./App.css";
 // import ColorPicket from "./sampleProject/ColorPicket";
 // import UpdaterFunction from "./sampleProject/UpdaterFunction";
 // import CarModel from "./sampleProject/CarModel";
-import ArrayFruits from "./sampleProject/ArrayFruits";
+// import ArrayFruits from "./sampleProject/ArrayFruits";
+import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
 function App() {
   return (
     <>
@@ -13,7 +14,8 @@ function App() {
       {/* <ColorPicket /> */}
       {/* <UpdaterFunction /> */}
       {/* <CarModel></CarModel> */}
-      <ArrayFruits/>
+      {/* <ArrayFruits/> */}
+      <ArrayOfObjects/>
     </>
   );
 }
