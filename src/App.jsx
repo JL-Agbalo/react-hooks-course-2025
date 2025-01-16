@@ -7,7 +7,8 @@ import "./App.css";
 // import ArrayFruits from "./sampleProject/ArrayFruits";
 // import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
 // import ToDoList from "./sampleProject/ToDoList";
-import DigitalClock from "./sampleProject/DigitalClock";
+// import DigitalClock from "./sampleProject/DigitalClock";
+import ComponentA from "./sampleProject/ForUseContext/ComponentA";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
       {/* <ArrayFruits/> */}
       {/* <ArrayOfObjects/> */}
       {/* <ToDoList /> */}
-    <DigitalClock />
+    {/* <DigitalClock /> */}
+    <ComponentA/>
     </>
   );
 }

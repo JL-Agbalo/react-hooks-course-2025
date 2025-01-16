@@ -106,3 +106,23 @@ return (<button onClick={() => handleClick2("Name")}> Click me </button>)
 // Good practice to use updater functions
 
 Continue https://www.youtube.com/watch?v=YxQlt3n1ZPA&list=PLZPZq0r_RZOMQArzyI32mVndGBZ3D99XQ&index=12
+
+// useCOntext() = React Hook that allows you to share values between multiple levels of components without passing props though each level
+
+
+
+Jargon
+- Platform (Web App)
+- Integrate: Old to New Platform
+- Features (Mga Need sa Platform)
+- Scability
+- Performance 
+- Aviodingg bloaded code
+- plugins
+- fetchpriority= "high" slow mag load ung mga webpages
+- lazy loading
+- Loading optimization
+- Theme pallete
+- Scrolling interaction
+- Micro interaction
+- hero section
