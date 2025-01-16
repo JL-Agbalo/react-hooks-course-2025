@@ -9,7 +9,8 @@ import "./App.css";
 // import ToDoList from "./sampleProject/ToDoList";
 // import DigitalClock from "./sampleProject/DigitalClock";
 // import ComponentA from "./sampleProject/ForUseContext/ComponentA";
-import UseingRef from "./sampleProject/UseingRef";
+// import UseingRef from "./sampleProject/UseingRef";
+import StopWatch from "./sampleProject/StopWatch";
 function App() {
   return (
     <>
@@ -23,7 +24,8 @@ function App() {
       {/* <ToDoList /> */}
     {/* <DigitalClock /> */}
     {/* <ComponentA/> */}
-    <UseingRef/>
+    {/* <UseingRef/> */}
+    <StopWatch/>
     </>
   );
 }
