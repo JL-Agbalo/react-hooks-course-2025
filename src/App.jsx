@@ -8,7 +8,8 @@ import "./App.css";
 // import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
 // import ToDoList from "./sampleProject/ToDoList";
 // import DigitalClock from "./sampleProject/DigitalClock";
-import ComponentA from "./sampleProject/ForUseContext/ComponentA";
+// import ComponentA from "./sampleProject/ForUseContext/ComponentA";
+import UseingRef from "./sampleProject/UseingRef";
 function App() {
   return (
     <>
@@ -21,7 +22,8 @@ function App() {
       {/* <ArrayOfObjects/> */}
       {/* <ToDoList /> */}
     {/* <DigitalClock /> */}
-    <ComponentA/>
+    {/* <ComponentA/> */}
+    <UseingRef/>
     </>
   );
 }
