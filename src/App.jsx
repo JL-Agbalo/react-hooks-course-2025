@@ -10,7 +10,7 @@ import "./App.css";
 // import DigitalClock from "./sampleProject/DigitalClock";
 // import ComponentA from "./sampleProject/ForUseContext/ComponentA";
 // import UseingRef from "./sampleProject/UseingRef";
-import StopWatch from "./sampleProject/StopWatch";
+import StopTheWatch from "./sampleProject/ForUseContext/StopTheWatch";
 function App() {
   return (
     <>
@@ -25,7 +25,7 @@ function App() {
     {/* <DigitalClock /> */}
     {/* <ComponentA/> */}
     {/* <UseingRef/> */}
-    <StopWatch/>
+    <StopTheWatch/>
     </>
   );
 }
