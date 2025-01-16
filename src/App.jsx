@@ -6,7 +6,8 @@ import "./App.css";
 // import CarModel from "./sampleProject/CarModel";
 // import ArrayFruits from "./sampleProject/ArrayFruits";
 // import ArrayOfObjects from "./sampleProject/ArrayOfObjects";
-import ToDoList from "./sampleProject/ToDoList";
+// import ToDoList from "./sampleProject/ToDoList";
+import DigitalClock from "./sampleProject/DigitalClock";
 function App() {
   return (
     <>
@@ -17,7 +18,8 @@ function App() {
       {/* <CarModel></CarModel> */}
       {/* <ArrayFruits/> */}
       {/* <ArrayOfObjects/> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+    <DigitalClock />
     </>
   );
 }
