@@ -126,3 +126,18 @@ Jargon
 - Scrolling interaction
 - Micro interaction
 - hero section
+
+
+// useContect() = React Hook that allows you to share values between multiple levels of components without passing props though each level
+
+// Provider Component
+1. import {createContext} from 'react';
+2. export const MyContext = createContext();
+3. <MyContext.Provider value={value}>
+<Child/>
+</MyCContext.Provider>
+
+// CONSUMER COMPONENTS
+1. import React, {useCOntext} from 'react';
+import {MyCOntext} from './ComponentA';
+2. const {value} = useContext(MyContext);
