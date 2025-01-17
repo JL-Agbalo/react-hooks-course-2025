@@ -6,6 +6,7 @@ export const LayoutEffectExample = () => {
 
   useLayoutEffect(() => {
     // Measure the width of the box immediately after rendering
+    // Runs beore the use Effect
     if (boxRef.current) {
       setBoxWidth(boxRef.current.offsetWidth);
     }
