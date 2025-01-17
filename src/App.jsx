@@ -12,7 +12,8 @@ import "./App.css";
 // import UseingRef from "./sampleProject/UseingRef";
 // import StopTheWatch from "./sampleProject/ForUseContext/StopTheWatch";
 // import UseRefTutorial from "./sampleProject/UseRefTutorial";
-import FocusInput from "./sampleProject/useRefHookCVU/FocusInput";
+// import FocusInput from "./sampleProject/useRefHookCVU/FocusInput";
+import ContextExample from './hooks/use-context/index'
 function App() {
   return (
     <>
@@ -29,7 +30,8 @@ function App() {
     {/* <UseingRef/> */}
     {/* <StopTheWatch/> */}
     {/* <UseRefTutorial/> */}
-    <FocusInput/>
+    {/* <FocusInput/> */}
+    <ContextExample/>
     </>
   );
 }
