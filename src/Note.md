@@ -127,6 +127,9 @@ Jargon
 - Micro interaction
 - hero section
 
+useImperativeHandle 
+ * `useImperativeHandle` is a React Hook that allows you to customize the instance value that is exposed when using `ref`.
+ * This can be useful when you want to expose certain methods or properties to parent components.
 
 // useContect() = React Hook that allows you to share values between multiple levels of components without passing props though each level
 

@@ -14,7 +14,9 @@ import "./App.css";
 // import UseRefTutorial from "./sampleProject/UseRefTutorial";
 // import FocusInput from "./sampleProject/useRefHookCVU/FocusInput";
 // import ContextExample from './hooks/use-context/index'
-import ReducerExample from './hooks/use-reducer/index'
+// import ReducerExample from './hooks/use-reducer/index'
+// import {RefExample} from './hooks/use-ref/index'
+import {ImperativeHandleExample} from './hooks/use-imperative-handle/index'
 function App() {
   return (
     <>
@@ -33,7 +35,9 @@ function App() {
     {/* <UseRefTutorial/> */}
     {/* <FocusInput/> */}
     {/* <ContextExample/> */}
-    <ReducerExample/>
+    {/* <ReducerExample/> */}
+    {/* <RefExample/> */}
+    <ImperativeHandleExample/>
     </>
   );
 }
