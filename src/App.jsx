@@ -16,7 +16,8 @@ import "./App.css";
 // import ContextExample from './hooks/use-context/index'
 // import ReducerExample from './hooks/use-reducer/index'
 // import {RefExample} from './hooks/use-ref/index'
-import {ImperativeHandleExample} from './hooks/use-imperative-handle/index'
+// import {ImperativeHandleExample} from './hooks/use-imperative-handle/index'
+import {LayoutEffectExample} from './hooks/use-layout-effect/index'
 function App() {
   return (
     <>
@@ -37,7 +38,8 @@ function App() {
     {/* <ContextExample/> */}
     {/* <ReducerExample/> */}
     {/* <RefExample/> */}
-    <ImperativeHandleExample/>
+    {/* <ImperativeHandleExample/> */}
+    <LayoutEffectExample/>
     </>
   );
 }
