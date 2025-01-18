@@ -17,7 +17,8 @@ import "./App.css";
 // import ReducerExample from './hooks/use-reducer/index'
 // import {RefExample} from './hooks/use-ref/index'
 // import {ImperativeHandleExample} from './hooks/use-imperative-handle/index'
-import {LayoutEffectExample} from './hooks/use-layout-effect/index'
+// import {LayoutEffectExample} from './hooks/use-layout-effect/index'
+import UseStateChallage from "./sampleProject/UseStateChallage";
 function App() {
   return (
     <>
@@ -39,7 +40,8 @@ function App() {
     {/* <ReducerExample/> */}
     {/* <RefExample/> */}
     {/* <ImperativeHandleExample/> */}
-    <LayoutEffectExample/>
+    {/* <LayoutEffectExample/> */}
+    <UseStateChallage/>
     </>
   );
 }
