@@ -4,6 +4,15 @@ function UseStateChallage() {
     const [task, setTask] = useState('')
     const [taskList, setTaskList] = useState([])
 
+    const editTask = (index) => {
+        const newTask = prompt("Edit task:", taskList[index]);
+        if (newTask !== null) {
+            const newTaskList = [...taskList];
+            newTaskList[index] = newTask;
+            setTaskList(newTaskList);
+        }
+    }   
+
     const addTask = () => {
         setTaskList([...taskList, task])
         setTask('')
@@ -15,12 +24,13 @@ function UseStateChallage() {
         setTaskList(newTaskList)
     }
 
-  return (
-    <div >
+    return(
+           <div>    
        <h1>Todo List</h1>
         <ul>
             {taskList.map((task, index) => (
-                <li key={index} onClick={removeTask}>{task}</li>
+            <li key={index} >{task} <button onClick={() => editTask(index)}>Edit</button>
+                <button onClick={() => removeTask(index)}>Delete</button></li>
             ))}
         </ul>
          <input type="text" value={task} onChange={(e) => setTask(e.target.value)} />
