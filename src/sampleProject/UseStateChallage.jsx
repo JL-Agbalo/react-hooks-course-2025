@@ -1,26 +1,25 @@
 import React, {useState} from 'react'
 
 function UseStateChallage() {
-    const [count, setCount] = useState(0)
+    const [isDarkMode, setIsDarkMode] = useState(false)
 
-    function increment(){
-        setCount(c => c + 1)
-    }
+    const themeStyles = {
+        backgroundColor: isDarkMode ? '#333' : '#FFF',
+        color: isDarkMode ? '#FFF' : '#333',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      };
 
-    function decrement(){
-        setCount(c => c - 1)
-    }
-
-    function reset(){
-        setCount(0)
+    function toggleDarkMode(){
+        setIsDarkMode((prev) => !prev)
     }
   return (
-    <div>
-        <h1>Increment</h1>
-        <p>Count: {count}</p>
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
-        <button onClick={reset}>Reset</button>
+    <div style={themeStyles}>
+        <h1 >{isDarkMode ? "Dark Mode" : "Light Mode"}</h1>
+        <button onClick={toggleDarkMode}>Toggle Theme</button>
     </div>
   )
 }
