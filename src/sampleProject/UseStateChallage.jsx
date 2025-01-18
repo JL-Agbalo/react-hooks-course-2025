@@ -1,25 +1,30 @@
 import React, {useState} from 'react'
 
 function UseStateChallage() {
-    const [isDarkMode, setIsDarkMode] = useState(false)
+    const [task, setTask] = useState('')
+    const [taskList, setTaskList] = useState([])
 
-    const themeStyles = {
-        backgroundColor: isDarkMode ? '#333' : '#FFF',
-        color: isDarkMode ? '#FFF' : '#333',
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      };
-
-    function toggleDarkMode(){
-        setIsDarkMode((prev) => !prev)
+    const addTask = () => {
+        setTaskList([...taskList, task])
+        setTask('')
     }
+
+    const removeTask = (index) => {
+        const newTaskList = [...taskList]
+        newTaskList.splice(index, 1)
+        setTaskList(newTaskList)
+    }
+
   return (
-    <div style={themeStyles}>
-        <h1 >{isDarkMode ? "Dark Mode" : "Light Mode"}</h1>
-        <button onClick={toggleDarkMode}>Toggle Theme</button>
+    <div >
+       <h1>Todo List</h1>
+        <ul>
+            {taskList.map((task, index) => (
+                <li key={index} onClick={removeTask}>{task}</li>
+            ))}
+        </ul>
+         <input type="text" value={task} onChange={(e) => setTask(e.target.value)} />
+         <button onClick={addTask}>Add Task</button>
     </div>
   )
 }
